@@ -1,0 +1,21 @@
+lu-hamani:
+  name: "Lucas' home"
+  description: "Charming flat in le 20ème"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: true
+  rating: 4
+JakobBe:
+  name: "Jakob's home"
+  description: Huge Castle in Frankfurt
+  city_name: "Frankfurt, Germany"
+  city_slug: "berlin"
+  wifi: false
+  rating: 5
+anthonyzamarro:
+  name: "Anthony's Villa"
+  description: "Beautiful villa in Boston"
+  city_name: "Boston, US"
+  city_slug: "boston"
+  wifi: true
+  rating: 4
