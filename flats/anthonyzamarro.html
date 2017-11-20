@@ -6,15 +6,15 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title>Le Wagon - Middleman - About</title>
-    <link href="stylesheets/application-8430f960.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <title></title>
+    <link href="../stylesheets/application-8430f960.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
-<a href="/" class="navbar-wagon-brand">    <img src="images/logo-acc9c0ec.png" alt="Logo" />
+<a href="/" class="navbar-wagon-brand">    <img src="../images/logo-acc9c0ec.png" alt="Logo" />
 </a>
   <!-- Right Navigation -->
   <div class="navbar-wagon-right hidden-xs hidden-sm">
@@ -50,32 +50,45 @@
   </div>
 </div>
 
-    <div id="about">
-  <div class="about-content">
-    <h1>This template was built with <i class="fa fa-heart"></i> by</h1>
-    <ul class="list-inline">
-        <li>
-<a href="https://kitt.lewagon.com/alumni/lu-hamani" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/lu-hamani" class="img-circle" alt="Lu hamani" />
-</a>          <h2>Lucas Hamani</h2>
-          <p>
-<a href="https://github.com/lu-hamani" target="_blank">              <i class="fa fa-github"></i> lu-hamani
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/JakobBe" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/JakobBe" class="img-circle" alt="Jakobbe" />
-</a>          <h2>Jakob von Bethman</h2>
-          <p>
-<a href="https://github.com/JakobBe" target="_blank">              <i class="fa fa-github"></i> JakobBe
-</a>          </p>
-        </li>
-        <li>
-<a href="https://kitt.lewagon.com/alumni/anthonyzamarro" target="_blank">            <img src="https://kitt.lewagon.com/placeholder/users/anthonyzamarro" class="img-circle" alt="Anthonyzamarro" />
-</a>          <h2>Anthony Zamarro</h2>
-          <p>
-<a href="https://github.com/anthonyzamarro" target="_blank">              <i class="fa fa-github"></i> anthonyzamarro
-</a>          </p>
-        </li>
-    </ul>
+    
+<div class="banner" style= "background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 50%), url('https://kitt.lewagon.com/placeholder/cities/boston'); height: 50vh; background-position: center;"></div>
+
+<div class="container">
+  <div class="row">
+    <div class="owner-content text-center">
+      <div class="col-xs-12 col-sm-6">
+        <img src="https://kitt.lewagon.com/placeholder/users/anthonyzamarro" class="img-circle profile-pic" alt="Anthonyzamarro" />
+        <p>Anthony's Villa</p>
+        <h4>Beautiful villa in Boston</h4>
+        <p>Boston, US</p>
+        <p>4</p>
+      </div>
+      <div class="col-xs-12 col-sm-6">
+        <form action="#">
+          <h3 class="text-center">Book this flat</h3>
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="form-group">
+                <input type="text" class="form-control" id="date1" placeholder="Check in">
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group">
+                <input type="text" class="form-control" id="date2" placeholder="Check out">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <select id="referrer" class="form-control">
+              <option value="">1 guest</option>
+              <option value="">2 guests</option>
+              <option value="">3 guests</option>
+            </select>
+          </div>
+          <input type="submit" value="Book it" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
   </div>
 </div>
 
